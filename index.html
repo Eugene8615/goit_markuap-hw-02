@@ -14,55 +14,58 @@
 
 <body>
   <header class="header">
+    <div class="container">
     <div class="general-nav">
       <nav class="main-nav">
         <a href="./index.html" class="logo">
           Web<span class="logo-accent">Studio</span>
         </a>
         <ul class="site-nav" style="list-style: none;">
-          <li>
+          <li class="item">
             <a href="./index.html" class="link current">Студія</a>
           </li>
 
-          <li>
+          <li class="item">
             <a href="partfolio.html" class="link">Портфоліо</a>
           </li>
 
-          <li>
+          <li class="item">
             <a href="" class="link">Контакти</a>
           </li>
         </ul>
       </nav>
       <ul class="link-contacts" style="list-style: none;">
-        <li>
+        <li class="item">
       <a href="mailto:info@devstudio.com" class="address-item">
         info@devstudio.com
       </a>
         </li>
-        <li>
+        <li class="item">
       <a href="tel:+380961111111" class="address-item">
         +38 096 111 11 11
       </a>
       </li>
       </ul>
     </div>
+    </div>
   </header>
 
   <main>
-    <section class="hero-overlay">
-      <h1 class="hero-title">
+    <section class="hero overlay">
+      <h1 class="hero-title container">
     Ефективні рішення для <br>вашого бізнесу
       </h1>
-      <button type="button" class="button">
+      <button type="button" class="button-hero">
         Замовити послугу
       </button>
     </section>
 
 
-    <section class="feature-section">
-      <h2>Наші особливості</h2>
+    <section class="feature section">
+      <div class="container">
+      <h2 class="feature-title visually-hidden">Наші особливості</h2>
       <div>
-        <ul style="list-style: none;">
+        <ul class="feature-list" style="list-style: none;">
           <li>
             <h3 class="our-skills">Увага до деталей</h3>
             <p class="skills">
@@ -93,10 +96,11 @@
           </li>
         </ul>
       </div>
+      </div>
     </section>
 
-    <section class="example-section">
-      <div>
+    <section class="example section">
+      <div class="container">
         <h2 class="doing">Чим ми займаємося</h2>
         <ul class="example-list" style="list-style: none;">
           <li>
@@ -114,15 +118,15 @@
       </div>
     </section>
 
-    <section class="team-section">
-      <div>
+    <section class="team section">
+      <div class="container">
         <h2 class="our-command">Наша команда</h2>
         <ul class="team-list" style="list-style: none;">
           <li class="team-card">
             <div>
               <img src="./images/Igor.jpg" alt="Product Designer Ігор Дем'яненко" width="270" />
             </div>
-            <div class="card">
+            <div class="name-card">
               <h3 class="name">Ігор Дем'яненко</h3>
               <p class="position">Product Designer</p>
             </div>
@@ -132,7 +136,7 @@
             <div>
               <img src="./images/Olha.jpg" alt="Frontend Developer Ольга Рєпіна" width="270" />
             </div>
-            <div class="card">
+            <div class="name-card">
               <h3 class="name">Ольга Рєпіна</h3>
               <p class="position">Frontend Developer</p>
             </div>
@@ -142,7 +146,7 @@
             <div>
               <img src="./images/Nicholas.jpg" alt="Marketing Микола Тарасов" width="270" />
             </div>
-            <div class="card">
+            <div class="name-card">
               <h3 class="name">Микола Тарасов</h3>
               <p class="position">Marketing</p>
               </div>
@@ -152,7 +156,7 @@
             <div>
               <img src="./images/Michael.jpg" alt="UI Designer Михайло Єрмаков" width="270" />
             </div>
-            <div class="card">
+            <div class="name-card">
               <h3 class="name">Михайло Єрмаков</h3>
               <p class="position">UI Designer</p>
             </div>
@@ -161,14 +165,15 @@
       </div>
     </section>
   </main>
+
   <footer class="footer">
-    <div>
-      <div>
+    <div class="container">
+      <div class="footer-address">
         <a href="./index.html" class="logo">
           Web<span class="logo-accent2">Studio</span>
         </a>
         <address>
-          <ul style="list-style: none;">
+          <ul class="footer-contacts" style="list-style: none;">
             <li>
           <a class="footer-adress"  href="https://goo.gl/maps/3aquBBFfu6E2QgFt6" target="blanc">
             м. Київ, пр-т Лесі Українки, 26
