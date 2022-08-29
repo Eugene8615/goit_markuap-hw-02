@@ -58,7 +58,7 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 
 letter-spacing: 0.03em;
 
@@ -78,7 +78,7 @@ text-decoration: none;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     
 
@@ -88,7 +88,7 @@ color: var(--main-color);
 .link:hover{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     
     color: var(--active-color);
@@ -97,7 +97,7 @@ color: var(--main-color);
 .current{
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: var(--active-color);
@@ -121,10 +121,10 @@ color: var(--active-color);
 }
 
 .button-hero{
-    font-family: 'Roboto';
+    font-family: inherit;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 padding: 10px 32px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -144,7 +144,7 @@ cursor: pointer;
 
 
 .btn-p{
-    font-family: 'Roboto';
+    font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
@@ -161,6 +161,10 @@ color: var(--main-color);
 cursor: pointer;
 }
 
+.button2:not(:last-child){
+    margin-right: 8px;
+}
+
 .btn-p:hover, .btn-p:focus{
     color: var(--white-color);
     background-color: var(--active-color);
@@ -172,7 +176,7 @@ cursor: pointer;
 .title{
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 /* identical to box height, or 200% */
 
 letter-spacing: 0.06em;
@@ -184,10 +188,9 @@ text-decoration: none;
 
 .hero-title{
     margin-bottom: 30px;
-    max-width: 696px;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 /* or 136% */
 
 text-align: center;
@@ -201,17 +204,17 @@ color: var(--white-color);
 .our-skills{
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
+margin-bottom: 10px;
 color: var(--main-color);
 }
 
 .skills{
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 /* or 171% */
 
 letter-spacing: 0.03em;
@@ -222,7 +225,7 @@ color: var(--secondary-color);
 .doing{
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 margin-bottom: 50px;
@@ -232,7 +235,7 @@ color: var(--main-color);
 .our-command{
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 margin-bottom: 50px;
@@ -242,23 +245,28 @@ color: var(--main-color);
 .name{
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
-
+line-height: 1.18;
 letter-spacing: 0.03em;
-
+margin-bottom: 10px;
 color: var(--main-color);
 }
 
-.name-card {
+.name-card{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-card {
     background: var(--white-color);
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
     border-radius: 0px 0px 4px 4px;
+    text-align: center;
 }
 
 .position{
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 
 letter-spacing: 0.03em;
 
@@ -269,7 +277,7 @@ color: var(--secondary-color);
 .item{
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 /* identical to box height, or 188% */
 
 letter-spacing: 0.03em;
@@ -283,7 +291,7 @@ text-decoration: none;
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
 color: var(--secondary-color);
@@ -296,7 +304,7 @@ text-decoration: none;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: var(--active-color);
@@ -331,7 +339,7 @@ text-decoration: none;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 
 color: var(--active-color);
@@ -343,7 +351,7 @@ color: var(--active-color);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
   
     
     letter-spacing: 0.03em;
@@ -357,7 +365,7 @@ color: var(--active-color);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 
 color: var(--active-color);
@@ -386,7 +394,7 @@ border: 1px solid var(--bored-color);
     padding-left: 0;
 }
 
-.site-nav .item {
+.site-nav .item:not(.item:last-child) {
     margin-right: 50px;
 }
 
@@ -433,10 +441,7 @@ border: 1px solid var(--bored-color);
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
-}
-
-.filter .btn-p {
-    margin-right: 8px;
+    list-style: none;
 }
 
 .portfolio-list {
@@ -444,6 +449,7 @@ border: 1px solid var(--bored-color);
     flex-wrap: wrap;
     padding: 0;
     gap: 30px;
+    list-style: none;
 }
 
 .portfolio-card {
@@ -486,7 +492,10 @@ border: 1px solid var(--bored-color);
     display: block;
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
-    margin-top: 9px;
+}
+
+.adress-contact{
+ margin-top: 9px;
 }
 
 .section {
